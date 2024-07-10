@@ -6,7 +6,7 @@ type Error = {
 }
 
 const customFetch = async (url: string, options: RequestInit) => {
-    const accessToken = localStorage.getItem('accesToken');
+    const accessToken = localStorage.getItem('access-token');
 
     const headers = options.headers as Record<string, string>;
 
